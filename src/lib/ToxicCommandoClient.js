@@ -1,6 +1,6 @@
 const {CommandoClient, CommandoClientOptions} = require('discord.js-commando');
 const exec = require('child_process').exec;
-const ToxicDatabase = require('.ToxicDatabase');
+const ToxicDatabase = require('./ToxicDatabase');
 const ToxicLevels = require('./ToxicLevels');
 const ToxicRewards = require('./ToxicRewards');
 
