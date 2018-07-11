@@ -1,0 +1,7 @@
+{
+  "TOKEN": "You Bot Token here",
+
+  "ADMIN": ["ownerID", "admindID"],
+
+  "PREFIX": "Your Prefix here",
+}
