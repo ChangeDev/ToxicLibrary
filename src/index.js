@@ -69,4 +69,4 @@ client.on('commandBlocked', (msg, reason) => {
 client.login(config.TOKEN).catch((err) => {
     client.logger.error(err);
 });
-bot.login(config.TOKEN)
+bot.login(config.TOKEN);
