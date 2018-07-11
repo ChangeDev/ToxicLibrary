@@ -30,7 +30,8 @@ client.registry
         ['general', 'General'],
         ['levels', 'Levels'],
         ['admin', 'Admin'],
-        ['util', 'Util']
+        ['util', 'Util'],
+        ['dev', 'Dev']
 
     ])
     .registerCommandsIn(path.join(__dirname, 'commands'));
