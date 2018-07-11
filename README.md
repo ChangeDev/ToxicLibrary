@@ -49,3 +49,10 @@ discord.js is a powerful [Node.js](https://nodejs.org) module that allows you to
 ## Thanks to
 
 `@IxJesus#0001` to find the errors and use the library on your bot
+
+## You need help
+Enter Ryuks-Development to receive support or support on any problem occurred
+
+<p align="center">
+  <a href="https://discord.gg/ebSJ8ZX"><img src="https://discordapp.com/api/guilds/466098335183536138/widget.png?style=banner3" alt="Discord server"></a>
+</p>
