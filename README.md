@@ -19,6 +19,32 @@ Used bookstores
 Commando is the official command framework for [discord.js](https://github.com/discordjs/discord.js).
 It is flexible, fully object-oriented, easy to use, and makes it trivial to create your own powerful commands.
 Additionally, it makes full use of ES2017's `async`/`await` functionality for clear, concise code that is simple to write and easy to comprehend.
+## Discord.js
+<div align="center">
+  <br />
+
+  <br />
+  <p>
+    <a href="https://discord.gg/bRCvFy9"><img src="https://discordapp.com/api/guilds/222078108977594368/embed.png" alt="Discord server" /></a>
+    <a href="https://www.npmjs.com/package/discord.js"><img src="https://img.shields.io/npm/v/discord.js.svg?maxAge=3600" alt="NPM version" /></a>
+    <a href="https://www.npmjs.com/package/discord.js"><img src="https://img.shields.io/npm/dt/discord.js.svg?maxAge=3600" alt="NPM downloads" /></a>
+    <a href="https://travis-ci.org/discordjs/discord.js"><img src="https://travis-ci.org/discordjs/discord.js.svg" alt="Build status" /></a>
+    <a href="https://david-dm.org/discordjs/discord.js"><img src="https://img.shields.io/david/discordjs/discord.js.svg?maxAge=3600" alt="Dependencies" /></a>
+    <a href="https://www.patreon.com/discordjs"><img src="https://img.shields.io/badge/donate-patreon-F96854.svg" alt="Patreon" /></a>
+  </p>
+  <p>
+    <a href="https://nodei.co/npm/discord.js/"><img src="https://nodei.co/npm/discord.js.png?downloads=true&stars=true" alt="npm installnfo" /></a>
+  </p>
+</div>
+
+## About
+discord.js is a powerful [Node.js](https://nodejs.org) module that allows you to interact with the
+[Discord API](https://discordapp.com/developers/docs/intro) very easily.
+
+- Object-oriented
+- Predictable abstractions
+- Performant
+- 100% coverage of the Discord API
 
 ## Thanks to
 
