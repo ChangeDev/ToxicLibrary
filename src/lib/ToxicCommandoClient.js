@@ -1,8 +1,8 @@
 const {CommandoClient, CommandoClientOptions} = require('discord.js-commando');
 const exec = require('child_process').exec;
-const PonyDatabase = require('.ToxicDatabase');
-const PonyLevels = require('./ToxicLevels');
-const PonyRewards = require('./ToxicRewards');
+const ToxicDatabase = require('.ToxicDatabase');
+const ToxicLevels = require('./ToxicLevels');
+const ToxicRewards = require('./ToxicRewards');
 
 class ToxicCommandoClient extends CommandoClient {
     constructor(options) {
@@ -10,9 +10,9 @@ class ToxicCommandoClient extends CommandoClient {
 
         this.logger = require('simple-node-logger').createSimpleLogger('bot.log');
 
-        this.database = new PonyDatabase(this);
-        this.levels = new PonyLevels(this);
-        this.rewards = new PonyRewards(this);
+        this.database = new ToxicDatabase(this);
+        this.levels = new ToxicLevels(this);
+        this.rewards = new ToxicRewards(this);
     }
 
     async getInfo() {
