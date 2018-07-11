@@ -50,7 +50,7 @@ module.exports = class RankCommand extends Command {
         }
 
 
-        let msg = await message.channel.send({embed: PonyUtils.generateInfoEmbed(message, `Leaderboard (Page ${page + 1}/${pages + 1})`, await genData(page))});
+        let msg = await message.channel.send({embed: ToxicUtils.generateInfoEmbed(message, `Leaderboard (Page ${page + 1}/${pages + 1})`, await genData(page))});
 
         await message.delete();
 
@@ -86,7 +86,7 @@ module.exports = class RankCommand extends Command {
                     return collector.stop();
             }
 
-            await msg.edit({embed: PonyUtils.generateInfoEmbed(message, `Leaderboard (Page ${page + 1}/${pages + 1})`, await genData(page))});
+            await msg.edit({embed: ToxicUtils.generateInfoEmbed(message, `Leaderboard (Page ${page + 1}/${pages + 1})`, await genData(page))});
         });
 
         collector.on('end', () => {
