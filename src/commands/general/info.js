@@ -28,7 +28,7 @@ module.exports = class InfoCommand extends Command {
 
   async run (message) {
     var dev
-    try { dev = this.client.users.get('322203879208910849').tag } catch (e) { dev = 'Alexis M𝒱✘#7319 ' }
+    try { dev = this.client.users.get('Your ID').tag } catch (e) { dev = 'Your tag' }
 
    const info = await message.client.getInfo();
    const linkLastCommit = `https://glitch.com/edit/#!/welcome-project/commit/${info.version}`;
@@ -80,7 +80,7 @@ module.exports = class InfoCommand extends Command {
           'name': 'Developer',
           'value': stripIndents`
             Discord: **${escapeMarkdown(dev)}**
-            GitHub: [\`@AlexisMV\`](http://github.com/AlexisMV)
+            GitHub: [\`@Yout Github name\`](http://github.com/AlexisMV)
           `,
           'inline': false
         },
@@ -97,10 +97,10 @@ module.exports = class InfoCommand extends Command {
         {
           'name': 'Links',
           'value': stripIndents`
-           Bot Invite: [\`Click Here!\`](https://discordapp.com/oauth2/authorize?client_id=396505277261938689&scope=bot&permissions=2084043903)
-            Server Invite: [\`Click Here!\`](https://discord.gg/RwmuHu6)
-            Homepage: [\`Click Here!\`](https://yuukibot.github.io/)
-            Repository: [\`Click Here!\`](https://github.com/AlexisMV/Ryuk-Bot)
+           Bot Invite: [Click Here](https://discordapp.com/oauth2/authorize?client_id=396505277261938689&scope=bot&permissions=2084043903)
+           Server Invite: [Click Here!](https://discord.gg/RwmuHu6)
+           Homepage: [Click Here!](https://github.com/Ryuks-Development/ToxicLibrary)
+           Repository: [Click Here!]https://github.com/Ryuks-Development/ToxicLibrary)
           `,
           'inline': false
         },
@@ -113,23 +113,6 @@ module.exports = class InfoCommand extends Command {
           `,
           'inline': false
         },
-          {
-            'name': '✉ Messages',
-            'value': !this.client.shard
-              ? stripIndents`
-              Sent: **${this.client.botStats.messagesSent}**
-              Received: **${this.client.botStats.messagesReceived}**
-              Commands: **${this.client.botStats.commandsUsed}**
-              Bot Mentions: **${this.client.botStats.clientMentions}**
-              `
-              : stripIndents`
-              Sent: **${this.client.botStats.messagesSent}** [${stats.totalMessagesSent}]
-              Received: **${this.client.botStats.messagesReceived}** [${stats.totalMessagesReceived}]
-              Commands: **${this.client.botStats.commandsUsed}** [${stats.totalCommandsUsed}]
-              Bot Mentions: **${this.client.botStats.clientMentions}** [${stats.totalClientMentions}]
-              `,
-            'inline': true
-          },
         {
           name: 'Version',
           value: info.version,
