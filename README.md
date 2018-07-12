@@ -6,6 +6,12 @@ Updated 1.0.20
 * The name of ToxiLevels was updated to ToxicLevels
 * The problem of the unregistered dev group is corrected
 
+Updated 1.0.86
+===========
+* another folder was created for those who only want the library
+* the xp system commands of the example bot were updated
+* the file [info.md](https://github.com/Ryuks-Development/ToxicLibrary/blob/master/info.md) was created to find out how to configure the files
+
 Used bookstores
 ============
 ## Commando
