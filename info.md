@@ -44,7 +44,7 @@ This project is made possible by these awesome libraries, frameworks, go check t
 - [Node.js](https://nodejs.org/) - Node.js JavaScript runtime
 - [PM2](https://pm2.keymetrics.io/) - Node.js Production Process Manager with a built-in Load Balancer
 
-- [Discord.js](https://github.com/axios/axios) - discord.js is a powerful Node.js module that allows you to interact with the Discord API very easily.
-- [Commando](http://expressjs.com/de/) - Commando is the official command framework for discord.js. 
+- [Discord.js](https://github.com/discordjs/discord.js) - discord.js is a powerful Node.js module that allows you to interact with the Discord API very easily.
+- [Commando](https://github.com/discordjs/Commando) - Commando is the official command framework for discord.js. 
 - [Sqlite](https://github.com/kriasoft/node-sqlite) - Sqlite is used to create the database
 
